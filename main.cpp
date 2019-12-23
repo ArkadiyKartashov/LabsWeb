@@ -2,7 +2,7 @@
 //это учебная программа
 int main()
 {
-    int a,b,c;
+    int a,b,c,d;
 
     printf("Enter numbers \n");
     printf("First number:");
@@ -10,7 +10,9 @@ int main()
     printf("Second number:");
     scanf("%d", &b);
     c = a + b;
-    printf("Summ = %d", c);
+    d = a - b;
+    printf("Summ = %d \n", c);
+    printf("Diff = %d", d);
 
 
 }
