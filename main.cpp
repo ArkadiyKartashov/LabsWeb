@@ -10,8 +10,9 @@ int main()
     printf("Second number:");
     scanf("%d", &b);
     c = a + b;
-    printf("Summ = %d \n", c);
     d = a - b;
+    printf("Summ = %d \n", c);
     printf("Diff = %d", d);
+
 
 }
